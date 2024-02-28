@@ -1,0 +1,18 @@
+/* adding height will not cut off your image; ghost element */
+body::before {
+  display: block;
+  content: '';
+  height: 60px;
+}
+
+#map {
+  width: 100%;
+  height: 100%;
+  border-radius: 10px;
+}
+/* breakpoint for medium is 768 */
+@media (min-width: 768px) {
+  .news-input {
+    width: 50%;
+  }
+}
